@@ -1,0 +1,89 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #E3DFFF;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+    text-align: center;
+    padding: 20px;
+    background-color: #937666;
+    color: #fff;
+  }
+
+  .header img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+
+  .section {
+    background-color: #3D3A4B;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: #E3DFFF;
+  }
+
+  h1, h2 {
+    color: #D3C0CD;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  ul li {
+    margin-left: 20px;
+  }
+
+  button {
+    background-color: #B19994;
+    color: #D3C0CD;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  /* Responsive layouts */
+
+  @media screen and (max-width: 1440px) {
+    /* Styles for large screens */
+    .section {
+      width: 70%;
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for medium screens */
+    .section {
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    /* Styles for small screens */
+    .section {
+      width: 100%;
+      margin: 0;
+    }
+  }
+
+
+ 
